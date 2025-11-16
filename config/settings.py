@@ -3,7 +3,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent  # points at folder with manage.py
 
-SECRET_KEY = os.environ.get("SECRET_KEY", "f9736d333ebe9223864f47a8b6662e8f")
+SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-nai($3ec=f6!ngusu6q0svmd2npui(almr(w=1+ki4pb$rd&*g")
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "*").split(",")
 
